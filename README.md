@@ -33,7 +33,7 @@ Good luck & have fun
 
 ### Step 1
 
-    - Clone this repo to your local machine using https://github.com/oleg-Borkovskyy/TechMagic_js2.git
+    - Clone this repo to your local machine using https://github.com/oleg-Borkovskyy/TC_tehmagic_Angular_hw1.git
 	 - Or press "Download ZIP" button, 
 
 ### Step 2
