@@ -1,0 +1,7 @@
+<div *ngIf="$movies" class="container">
+    <ul class="film-list">
+        <li *ngFor="let movie of $movies" class="film-list__item">
+            <app-film-item [movieId]=movie.id></app-film-item>
+        </li>
+    </ul>
+</div>

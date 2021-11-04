@@ -1,0 +1,12 @@
+<div class="search__input-wrapper d-flex">
+    <i class="fa fa-search d-flex align-items-center" aria-hidden="true"></i>
+    <form id="form-submit-canvas" autocomplete="on" enctype="multipart/form-data" accept-charset="UTF-8" method="POST" ng-submit="getSearchResult(searchInput.value)" novalidate>
+        <input #searchInput
+        [(ngModel)]='searchQuery'
+        type="text" 
+        name="searchForm"
+        placeholder="search film....."
+        >
+        <button class="input__search-btn" (click)="getSearchResults()">Search</button>
+    </form>
+</div>        

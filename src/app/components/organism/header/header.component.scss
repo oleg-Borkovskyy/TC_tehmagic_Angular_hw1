@@ -1,0 +1,16 @@
+header {
+   margin-bottom: 10px;
+}
+nav a {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 10px;
+    &:hover{
+        color: rgb(141, 0, 0);
+    }
+}
+.header__wrapper {
+     height: 60px;
+    background-color: rgb(49, 49, 49);
+}

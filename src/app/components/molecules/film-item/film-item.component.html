@@ -1,0 +1,26 @@
+
+<div *ngIf="movie">
+  <div class="movie__item d-flex">
+    <img
+      class="movie__item-img"
+      src="https://image.tmdb.org/t/p/w200{{ movie.poster_path }}"
+      alt="poster"
+    />
+    <div class="movie__item-info">
+      <div class="d-flex">
+        <span>Movie Title:</span>
+        <h4> {{ movie.title }}</h4>
+      </div>
+      <div>
+        <span>Movie Votes: </span><span>{{ movie.vote_average }}</span>
+      </div>
+      <div>
+        <span>Movie Release Date: </span>
+        <span>{{ movie.release_date | date }}</span>
+      </div>
+      <div class="movie__budget">
+        <span>Movie budget: {{ movie.budget | currency }}</span>
+      </div>
+    </div>
+  </div>
+</div>
